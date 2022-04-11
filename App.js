@@ -32,6 +32,7 @@ const App = () => {
     setList(templist);
   };
 
+  useEffect(() => {}, [list]);
   return (
     <View style={styles.container}>
       <Text style={styles.heading}>TODO-App</Text>
